@@ -1,0 +1,12 @@
+C:\WORK\MicroserviceECommerce\MicroserviceECommerce\MicroserviceECommerce.Entities\bin\Debug\MicroserviceECommerce.Entities.dll.config
+C:\WORK\MicroserviceECommerce\MicroserviceECommerce\MicroserviceECommerce.Entities\bin\Debug\MicroserviceECommerce.Entities.dll
+C:\WORK\MicroserviceECommerce\MicroserviceECommerce\MicroserviceECommerce.Entities\bin\Debug\MicroserviceECommerce.Entities.pdb
+C:\WORK\MicroserviceECommerce\MicroserviceECommerce\MicroserviceECommerce.Entities\bin\Debug\EntityFramework.dll
+C:\WORK\MicroserviceECommerce\MicroserviceECommerce\MicroserviceECommerce.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\WORK\MicroserviceECommerce\MicroserviceECommerce\MicroserviceECommerce.Entities\bin\Debug\EntityFramework.xml
+C:\WORK\MicroserviceECommerce\MicroserviceECommerce\MicroserviceECommerce.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\WORK\MicroserviceECommerce\MicroserviceECommerce\MicroserviceECommerce.Entities\obj\Debug\MicroserviceECommerce.Entities.csprojAssemblyReference.cache
+C:\WORK\MicroserviceECommerce\MicroserviceECommerce\MicroserviceECommerce.Entities\obj\Debug\MicroserviceECommerce.Entities.csproj.CoreCompileInputs.cache
+C:\WORK\MicroserviceECommerce\MicroserviceECommerce\MicroserviceECommerce.Entities\obj\Debug\MicroserviceECommerce.Entities.csproj.CopyComplete
+C:\WORK\MicroserviceECommerce\MicroserviceECommerce\MicroserviceECommerce.Entities\obj\Debug\MicroserviceECommerce.Entities.dll
+C:\WORK\MicroserviceECommerce\MicroserviceECommerce\MicroserviceECommerce.Entities\obj\Debug\MicroserviceECommerce.Entities.pdb

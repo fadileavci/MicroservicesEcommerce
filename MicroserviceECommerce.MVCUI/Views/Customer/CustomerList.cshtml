@@ -1,0 +1,61 @@
+﻿
+@model IEnumerable<MicroserviceECommerce.MVCUI.Entities.Customers>
+
+@{
+    ViewBag.Title = "CustomerList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>CustomerList</h2>
+
+<p>
+    @Html.ActionLink("Yeni Müsteri Ekle", "AddCustomer", new {/* */  }, new { @class = "btn btn-danger"})
+</p>
+<table class="table">
+    <tr>
+        
+        <th>
+            @Html.DisplayNameFor(model => model.CompanyName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContactName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContactTitle)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.City)
+        </th>
+  
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+       
+        <td>
+            @Html.DisplayFor(modelItem => item.CompanyName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContactName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContactTitle)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.City)
+        </td>  
+ 
+
+        <td>
+            @Html.ActionLink("Düzenle", "Edit", new { /* id=item.PrimaryKey */ },new {@class="btn btn-danger"}) 
+            @Html.ActionLink("Detay", "GetCustomerDetail", new { id=item.CustomerID}, new { @class = "btn btn-danger" }) 
+            @Html.ActionLink("Sil", "CustomerDelete", new {  id=item.CustomerID }, new { @class = "btn btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>
